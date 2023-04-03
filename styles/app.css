@@ -1,5 +1,7 @@
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
+    
     background: #673AB7;
     width: 150px;
   }
