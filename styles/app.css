@@ -1,69 +1,15 @@
-body {
-    margin: 0;
-    padding: 0;
-  
-    font-family: sans-serif;
-  
-    background-color: #f7f8fa;
+.flex-container {
+    display: flex;
+    background: #673AB7;
   }
   
-  header {
-    /* BEGIN (write your solution here) */
-    display: flex;
-    flex-direction: row-reverse;
+  .flex-container div {
+    padding: 20px;
     
-    /* END */
-    padding: 0 50px;
-  
+    background: #2196F3;
     color: #fff;
-  
-    background: #00b7a1;
   }
   
-  header .name {
-    box-sizing: border-box;
-    padding: 15px;
-  
-    font-weight: bold;
-    font-size: 20px;
-    text-align: right;
+  .flex-container div:nth-child(2n){
+    background: #3F51B5;
   }
-  
-  header nav ul {
-    /* BEGIN (write your solution here) */
-    display: flex;
-    /* END */
-    padding: 0;
-  
-    list-style: none;
-  }
-  
-  header nav ul li {
-    width: 20%;
-  }
-  
-  main {
-    /* BEGIN (write your solution here) */
-    display: flex;
-    /* END */
-  }
-  
-  section {
-    box-sizing: border-box;
-    padding: 30px 50px;
-  }
-  
-  .aside-block {
-    box-sizing: border-box;
-    height: 100px;
-    padding: 30px 50px;
-  }
-  
-  .w30 {
-    width: 30%;
-  }
-  
-  .w70 {
-    width: 70%;
-  }
-  
