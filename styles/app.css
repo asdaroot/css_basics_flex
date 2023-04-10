@@ -1,32 +1,38 @@
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-  
-  max-width: 400px;
-  padding: 20px 0;
-  
-  background: #2196F3;
-}
-
-.container div {
+.btn {
+  width: 150px;
   padding: 10px;
 
   font-weight: bold;
+
+  background: #136ef6;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.d-flex {
+  /* BEGIN (write your solution here) */
+  display: flex;
+  /* END */
+}
+
+.flex-center {
+  /* BEGIN (write your solution here) */
+  align-items: center;
+  justify-content: center;
+  /* END */
+}
+
+.mr-1 {
+  /* BEGIN (write your solution here) */
+  margin-right: 1em;
+  /* END */
+}
+
+.text-white {
+  /* BEGIN (write your solution here) */
   color: #fff;
-}
-
-.item-one {
-  background: #8258ca;
-  font-size: 1em;
-}
-
-.item-two {
-  background: #8258ca;
-  font-size: 2em;
-}
-
-.item-three {
-  background: #8258ca;
-  font-size: 3em;
+  /* END */
 }
