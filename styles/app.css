@@ -1,9 +1,18 @@
 :root {
-  --height-block: 50px;
+  --min-height-block: 50px;
+  --width-block: 100px;
 }
 
 .flex-grow-1 {
   flex-grow: 1;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+}
+
+.w-300px {
+  width: 300px!important;
 }
 
 .bg-red {
@@ -20,6 +29,9 @@
 
 .items-flexibility {
   display: flex;
+  width: 700px;
+  
+  background: #9e9e9e;
 }
 
 .flex-item {
@@ -27,7 +39,8 @@
   justify-content: center;
   align-items: center;
   
-  min-height: var(--height-block);
+  min-height: var(--min-height-block);
+  width: var(--width-block);
   padding: 20px;
   box-sizing: border-box;
   
