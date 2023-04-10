@@ -1,48 +1,43 @@
-:root {
-  --min-height-block: 50px;
-  --width-block: 100px;
+/** CSS STYLE **/
+body {
+  margin: 0;
 }
 
-.flex-grow-1 {
-  flex-grow: 1;
+.bg-gray {
+  background: #bdbdbd;
 }
 
-.flex-grow-2 {
-  flex-grow: 2;
-}
-
-.w-300px {
-  width: 300px!important;
-}
-
-.bg-red {
-  background: #d32f2f;
+.bg-orange {
+  background: #ffcc80;
 }
 
 .bg-green {
-  background: #388e3c;
+  background: #66bb6a;
 }
 
-.bg-blue {
-  background: #1976d2;
+.h-100vh {
+  height: 100vh;
 }
 
-.items-flexibility {
+.flex-container {
+  /* BEGIN (write your solution here) */
   display: flex;
-  width: 700px;
+  flex-direction: column;
+
   
-  background: #9e9e9e;
+  /* END */
 }
 
 .flex-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* BEGIN (write your solution here) */
+  flex: 1 1 200px;
   
-  min-height: var(--min-height-block);
-  width: var(--width-block);
-  padding: 20px;
-  box-sizing: border-box;
+  /* END */
+}
+
+.no-shrink {
+  /* BEGIN (write your solution here) */
+  flex-shrink: 0; 
   
-  color: white;
+  /* END */
 }
