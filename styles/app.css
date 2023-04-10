@@ -22,24 +22,12 @@
   background: #d32f2f;
 }
 
-.bg-red-one {
-  background: #7e1b1b;
-}
-
 .bg-green {
   background: #388e3c;
 }
 
-.bg-green-two {
-  background: #2c6d2f;
-}
-
 .bg-blue {
   background: #1976d2;
-}
-
-.bg-blue-three {
-  background: #104c89;
 }
 
 .h-100px {
@@ -54,14 +42,18 @@
   height: 200px;
 }
 
-.order-1 {
-  order: 1;
+.align-self-center {
+  align-self: center;
 }
 
-.order-2 {
-  order: 2;
+.align-self-start {
+  align-self: flex-start;
 }
 
-.order-3 {
-  order: 3;
+.align-self-end {
+  align-self: flex-end;
+}
+
+.align-self-baseline {
+  align-self: baseline;
 }
