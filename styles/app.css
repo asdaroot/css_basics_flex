@@ -1,38 +1,31 @@
-.btn {
-  width: 150px;
-  padding: 10px;
-
-  font-weight: bold;
-
-  background: #136ef6;
-
-  border: none;
-  border-radius: 10px;
-
-  cursor: pointer;
+:root {
+  --height-block: 50px;
 }
 
-.d-flex {
-  /* BEGIN (write your solution here) */
+.bg-red {
+  background: #d32f2f;
+}
+
+.bg-green {
+  background: #388e3c;
+}
+
+.bg-blue {
+  background: #1976d2;
+}
+
+.items-flexibility {
   display: flex;
-  /* END */
 }
 
-.flex-center {
-  /* BEGIN (write your solution here) */
-  align-items: center;
+.flex-item {
+  display: flex;
   justify-content: center;
-  /* END */
-}
-
-.mr-1 {
-  /* BEGIN (write your solution here) */
-  margin-right: 1em;
-  /* END */
-}
-
-.text-white {
-  /* BEGIN (write your solution here) */
-  color: #fff;
-  /* END */
+  align-items: center;
+  
+  height: var(--height-block);
+  padding: 20px;
+  box-sizing: border-box;
+  
+  color: white;
 }
