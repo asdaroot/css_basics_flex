@@ -1,7 +1,7 @@
 .container {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: baseline;
   
   max-width: 400px;
   padding: 20px 0;
